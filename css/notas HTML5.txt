@@ -1,0 +1,25 @@
+HTML5: ¿Qué incluye?
+-Video
+-Audio
+-Canvas (dibujar)
+-Guardar datos en navegador
+-Etiquetas semánticas
+-etc.
+
+
+
+
+Orden en que van los elementos
+1.- Pseudo-elementos
+		Contiene atributos
+2.- Etiquetas<etiqueta>
+		Contiene atributos
+3.- Identificadores
+		Contiene atributos
+4.- Clases
+		Contiene atributos
+5.- Elemento de responsive design 
+		(diseño adaptativo)
+			Contiene atributos
+Todos ellos en orden alfabético
+Tanto elementos como atributos
