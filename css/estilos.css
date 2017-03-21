@@ -25,3 +25,7 @@ header nav ul li{
 	padding: 5px 10px;
 	width: 84px;
 }
+nav ul li
+{
+display: inline-block;
+	}
