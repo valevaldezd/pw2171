@@ -1,0 +1,12 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+}
+header nav ul li{
+	display: inline-block;
+	color: white;
+	background: orange;
+
+
+}
+
