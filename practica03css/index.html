@@ -1,87 +1,70 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-	<title>Práctica 3</title>
+	<meta charset="UTF-8">
+	<title>Practica CSS 03</title>
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<header>
-
-		<img src="img/logo.jpg" alt="">
-		<img src="img/red1.png" alt="">
-		<img src="img/red2.png" alt="">
-		<img src="img/red3.png" alt="">
-		<br>
-		<span>MI THEMA EN HTML5</span>
-		<NAV>
-		<ul>
-			<li>INICIO</li>
-			<li>TUTORIALES</li>
-			<LI>VIDEOS</LI>
-			<li>JAVASCRIPT</li>
-			<li>HTML5 Y CSS3</li>
-			<LI>RECURSOS</LI>
-			<li>ADMINISTRADOR</li>
-		</ul>
-		</NAV>
+		<img src="img/logo.jpg" alt="" id="logo">	
+		<img src="img/red1.png" alt="" id="red1">
+		<img src="img/red2.png" alt="" id="red2">
+		<img src="img/red3.png" alt="" id="red3">
+		<span class="mitema">MI THEMA EN HTML5</span>
+		<nav class="naranja1">
+			<ul>
+				<li>INICIO</li>
+				<li>TUTORIALES</li>
+				<li>VIDEOS</li>
+				<li>JAVASCRIPT</li>
+				<li>HTML 5 y CSS3</li>
+				<li>RECRURSOS</li>
+				<li>ADMINISTRADOR</li>				
+			</ul>
+		</nav>
 	</header>
 	<section>
-		<article>
-			<article>
+		<article id="article1">
+			<article id="slide">
 			<img src="img/slider.jpg" alt="">
-			<br>
 			</article>
-
-				<article>
-					<span>Título del post</span>
-					<br>
-					<img src="img/img-post.jpg" alt="">
-					Por Admin El 30/05/2012. En Pruebas
-					<br>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					<br>
-					<span>Leer Mas...</span>
-				</article>
-
-			<article>
-				<article>
-					<span>Publicidadd</span>
-					<img src="publicidad.jpg" alt="">
-					<img src="publicidad.jpg" alt="">
-					<img src="publicidad.jpg" alt="">
-					<img src="publicidad.jpg" alt="">
-				</article>
-					<article>
-						<span>Buscador</span>
-							<form action="">
-								<input type="search" placeholder="Search...">
-								<input type="button" value="Go">
-							</form>
-
-					</article>
-						<article>
-							<span>Categorías</span>
-							<ul>
-								<li>categoría 1</li>
-								<li>categoría 2</li>
-								<li>categoría 3</li>
-								<li>categoría 4</li>
-								<li>categoría 5</li>
-								<li>categoría 6</li>
-								<li>categoría 7</li>
-							</ul>
-						</article>
-				
+			<article id="post">
+				<span class="titulo">Titulo del Post</span><p>
+				<img src="img/img-post.jpg" alt="">
+				<span class="info">Por <span class="datos">Admin</span> El <span class="datos">30/05/2012.</span> en <span class="datos">Pruebas</span></span><p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ex nisi, non perspiciatis maxime error. Quo, explicabo voluptate quis fugit, magnam, natus similique quasi inventore, ab sint sed. Amet, tempore! <p>
+				<input type="button" value="Leer Mas...">
 			</article>
-
+		</article>
+		<article id="article2">
+			<article id="a2a1">
+				<span class="naranja">Publicidad</span><p>
+				<img src="img/publicidad.jpg" alt="">
+				<img src="img/publicidad.jpg" alt="">
+				<img src="img/publicidad.jpg" alt="">
+				<img src="img/publicidad.jpg" alt="">
+			</article>
+			<article id="a2a2">
+				<span class="naranja">Buscador</span><p>
+				<span class="cajita">
+					<input type="search" placeholder="Search..." id="search">
+					<input type="button" value="Go" id="go">
+				</span>
+			</article>
+			<article id="a2a3">
+				<span class="naranja">Categorías</span>
+				<ul>
+					<li>categoría 1</li>
+					<li>categoría 2</li>
+					<li>categoría 3</li>
+					<li>categoría 4</li>
+					<li>categoría 5</li>
+					<li>categoría 6</li>
+					<li>categoría 7</li>
+				</ul>
+			</article>
 		</article>
 	</section>
-
 </body>
 </html>

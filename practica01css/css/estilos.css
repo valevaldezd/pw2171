@@ -1,36 +1,36 @@
 body{
-	border: 1px solid blue;
-	font-size: 16px; /*1em*/
-	margin: 0 auto;
-	max-width: 1024px;
+	border: 1px solid blue; /*Borde*/
+	font-size: 16px; /*1em*/ /*Tamaño de fuente*/
+	margin: 0 auto; /*Centrar*/
+	max-width: 1024px; /*Tamaño*/
 }
 form{
-	float: right;
-	margin-right: 20px;
-	margin-top: -40px;
+	float: right; /*flota a la derecha*/
+	margin-right: 20px; /*Acomoda  a la derecha*/
+	margin-top: -40px; /*acomoda arribas*/
 }
 form input{ /*todos los input dentro del form*/
-	border-radius: 5px;
+	border-radius: 5px; /*radius redondea*/
 }
-form input[type="button"]{
-	background: green;
-	color: white;
+form input[type="button"]{ /*modifica el form del botón*/
+	background: green; /*fondo verde*/
+	color: white; /*letra blanca*/
 }
 header{
-	background: #B3D8EB 
+	background: #B3D8EB /*Color del header*/
 }
 header nav
 {
 	background: #0E6CB0;
 	border-radius: 5px;
-	padding: 2px 0px 2px 0px;
-	margin: 0 auto;
-	width: 99%;
+	padding: 2px 0px 2px 0px; /*relleno*/
+	margin: 0 auto; 
+	width: 99%; /*ancho*/
 }
 header nav ul li{
 	color: white;
-	display: inline-block;
-	margin-right: 20px;
+	display: inline-block; /*descativa la lista y la deja en una línea*/
+	margin-right: 20px; /*separación de seccciones*/
 }
 #logo{
 	margin-top: -150px;
@@ -52,8 +52,8 @@ header nav ul li{
 
 }
 .unaSeccion, .otraSeccion {
-	font-weight: bold;/*Negritas*/
-	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: bold;/*grueso de la letra y bold es negritaNegritas*/
+	font-family: 'Merriweather Sans', sans-serif; /*tipo de letra*/
 }
 .unaSeccion{
 	font-size: 4.5em;
