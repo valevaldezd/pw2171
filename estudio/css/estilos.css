@@ -1,0 +1,97 @@
+body{
+	font-size: 16px;
+	margin:0 auto;
+	max-width: 1024px;
+	font:arial;
+}
+header nav ul
+{
+	padding-left:0;
+	margin-right: 400px;
+	margin-top: 60px;
+}
+header nav ul li{
+	font-weight: bold;
+	display: inline-block;
+	
+	margin-right: 30px;
+}
+#logos{
+	text-align: right;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+#goto{
+	float: right;
+	padding-right:  100px;
+}
+#buy{
+	float: right;
+	position: relative;
+	margin-top:-73px;
+	margin-right: 340px;
+}
+#sec1
+{
+	margin-top: 30px;
+}
+#sec1 article
+{
+	display: inline-block;;
+}
+
+#art1{
+	width: 52%;	
+	vertical-align: top;
+	
+}
+.balance
+{
+	font-size: 3em;
+	color:lightgreen;
+	font-weight: bold;
+
+}
+
+.firstSense
+{
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.parrafo
+{
+	padding-top: 30px;
+}
+#videos{
+	text-align: center;
+	margin-top: 20px;
+}
+#art2{
+	width: 35%;
+
+}
+#bike{
+	vertical-align: top;
+	
+}
+#years{
+	float:right;
+	margin-top: -100px;
+	position: relative;
+	margin-right: 180px;
+}
+.titulos
+{
+	font-weight: bold;
+}
+footer
+{
+	margin-top: 50px;
+}
+footer article
+{
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+}

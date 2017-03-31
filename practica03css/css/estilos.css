@@ -1,35 +1,35 @@
 body{
-  font-size: 1em;
-  font-family: sans-serif;
-  max-width: 1024px;
-  max-height: 1024px;
-  margin: 0 auto;
+  font-size: 1em; /*Tamaño letra*/
+  font-family: sans-serif; /*Tipo de letra*/
+  width: 1024px; /*ancho*/
+  height: 1024px; /*alto*/
+  margin: 0 auto; /*centrar*/
 }
 
 header{
-  border:1px solid white;
+  border:1px solid white; /*borde y color*/
 }
 
 header nav{
-  margin-top: 100px;
+  margin-top: 100px; /*margen del nav*/
 }
 
 header nav ul li{
-  margin-left:  -20px;
-  margin-right: 40px;
-  display: inline-block;
+  margin-left:  -20px; /*margen izq*/
+  margin-right: 40px; /*margen der*/
+  display: inline-block; /*quitar viñeta*/
 }
 
 #logo{
   float: left;
   position: absolute;
-  margin-left: 20px;
+  margin-left: 20px; /*margen izq*/
 }
 
 .mitema{
   font-size: 1.5em;
   color: white;
-  text-shadow: .5px .5px .5px black;
+  text-shadow: .5px .5px .5px black; /*Sombra al texto*/
   position: absolute;
   margin-top: 50px;
   margin-left: 10px;
@@ -43,11 +43,11 @@ header nav ul li{
 
 .naranja1{
   background: #F6661D;
-  display: block;
+  display: block; /*bloquear pantalla*/
   border-radius: 10px;
   color: white;
-  font-weight: bold;
-  padding: 1px;
+  font-weight: bold; /*ancho de letra negrita*/
+  padding: 1px; /*relleno*/
 }
 
 body section article{
@@ -56,32 +56,32 @@ body section article{
   vertical-align: top;
 }
 
-#article1{
-  width: 64%;
-  padding-left: 10px;
+#article1{ 
+  width: 64%; /*ancho*/
+  padding-left: 10px; /* relleno izqse sube el article*/
 }
 
 #slide{
-  width: 100%;
-  margin-top: 10px;
-  border-bottom: 1px solid #D0D0D0;
+  width: 100%; /*tamaño*/
+  margin-top: 10px; /*margen de arriba*/
+  border-bottom: 1px solid #D0D0D0; /*rayita*/
 }
 
 #slide img{
-  width: 96%
+  width: 96% /*ancho imagen slide*/
 }
 
 #post{
-  margin-top: 25px;
-  border-bottom: 1px solid #D0D0D0;
-  padding-right: 30px;
+  margin-top: 25px; /*quee tan arriba queda*/
+  border-bottom: 1px solid #D0D0D0; /*rayita*/
+  padding-right: 40px; /*relleno der*/
 }
 
 #post img{
-  border: 7px solid rgba(150,150,150,0.5); 
+  border: 7px solid rgba(150,150,150,0.5); /*borde cuadro*/
   vertical-align: middle;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 10px; /*espacio derecha*/
+  margin-bottom: 10px; /*que tan abajo la rayita*/
   float: left;
 }
 
@@ -105,7 +105,7 @@ body section article{
   font-style: italic;
 }
 
-#article1 input{
+#article1 input{ /*botonsillo*/
   padding: 7px;
   border-radius: 7px;
   font-style: italic;
@@ -115,7 +115,7 @@ body section article{
 }
 
 #article2{
-  max-width: 33%;
+  max-width: 33%; /*ancho publicidad*/
 }
 
 #article2 article{
