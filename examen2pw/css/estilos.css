@@ -1,0 +1,104 @@
+body{
+  font-size: 1em; 
+  font-family: 'Bree Serif', serif;
+  width: 1024px; 
+  height: 1024px; 
+  margin: 0 auto; 
+}
+#dibujitos{
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+header nav ul{
+	padding-left:0;
+	margin-right: 400px;
+	margin-top: 60px;
+}
+
+header nav ul li{
+	font-weight: bold;
+	display: inline-block;
+	
+	margin-right: 20px;
+}
+#buy{
+	float: right;
+	position: relative;
+	margin-top:-60px;
+	margin-right: 340px;
+}
+#goToShop{
+	float: right;
+	padding-right:  140px;
+}
+.balance
+{
+	font-size: 3em;
+	color:lightgreen;
+	font-weight: bold;
+
+}
+
+.firstSense
+{
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.parrafo
+{
+	padding-top: 30px;
+	color: gray;
+}
+
+#seccion01{
+	margin-top: 30px;
+}
+#seccion01 article{
+	display: inline-block;;
+}
+
+#secc01art01{
+	width: 50%;	
+	vertical-align: top;
+	}
+
+
+#videos{
+	text-align: center;
+	margin-top: 40px;
+}
+#bike{
+	vertical-align: top;
+	
+}
+#years{
+	float:right;
+	margin-top: -100px;
+	position: relative;
+	margin-right: 180px;
+}
+#art02{
+	width: 35%;
+
+}
+.encabezados
+{
+	font-weight: bold;
+	color: gray;
+}
+footer{
+	margin-top: 50px;
+}
+footer article{
+	display: inline-block;
+	width: 18%;
+	vertical-align: top;
+}
+.linea{
+	
+border:1px dashed gray;
+
+}
