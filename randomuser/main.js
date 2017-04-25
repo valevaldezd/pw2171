@@ -20,6 +20,7 @@ function muestraPantallaPrincipal(){
 		protocol: 'file',
 		slashes: true
 	}))
+	PantallaPrincipal.webContents.openDevTools()
 	PantallaPrincipal.show()
 }
 //La aplicación ejecuta este evento cuando
